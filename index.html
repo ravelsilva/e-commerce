@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <title>E-commerce</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="nav-container">
+          <img class="menu" src="/images/icon-menu.svg" alt="" />
+          <h1 class="title">sneakers</h1>
+          <nav class="navigation">
+            <ul class="list">
+              <img class="close_menu" src="/images/icon-close.svg" alt="">
+              <li class="list-itens">
+                <a href="#" class="itens">Collections</a>
+              </li>
+              <li class="list-itens"><a href="#" class="itens">Men</a></li>
+              <li class="list-itens"><a href="#" class="itens">Woman</a></li>
+              <li class="list-itens"><a href="#" class="itens">About</a></li>
+              <li class="list-itens"><a href="#" class="itens">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="my-store">
+          <div class="cart">
+            <i class="carrinho"><img src="/images/icon-cart.svg" alt="" /></i>
+            <div class="cart-itens inactive">
+              <p>Cart</p>
+              <div>
+                <p class="cart-vazio">Your Cart is empty</p>
+                <ul class="inactive">
+                  <li>
+                    <div class="item-selecionado">
+                      <img
+                        src="/images/image-product-1-thumbnail.jpg"
+                        alt="Produto selecionado"
+                      />
+                      <div class="info-item-selecionado">
+                        Fall Limited Edition Sneakers
+                        <span>
+                          <p class="valor">$125.00</p>
+                          <p class="quantidade"></p>
+                          <p class="valor-final">$375.00</p>
+                        </span>
+                      </div>
+                      <i class="fa-solid fa-trash-can"></i>
+                    </div>
+                    <button class="checkout" type="button">
+                      <a href="https://github.com/ravelsilva">Checkout</a>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="perfil">
+            <img class="avatar" src="/images/avatar.png" alt="" />
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <aside>
+          <div class="catalog">
+            <div class="image-span">
+              <i class="fa-solid fa-xmark inactive"></i>
+              <i class="fa-solid fa-arrow-left inactive"></i>
+              <div class="imagens-carrossel">
+                <div class="imagens-meio">
+                  <img src="/images/image-product-1.jpg" alt="" class="image" />
+
+                  <img
+                    class="inactive"
+                    src="/images/image-product-2.jpg"
+                    alt=""
+                    class="image"
+                  />
+                  <img
+                    class="inactive"
+                    src="/images/image-product-3.jpg"
+                    alt=""
+                    class="image"
+                  />
+                  <img
+                    class="inactive"
+                    src="/images/image-product-4.jpg"
+                    alt=""
+                    class="image"
+                  />
+                </div>
+              </div>
+              <i class="fa-solid fa-arrow-right inactive"></i>
+            </div>
+            <div class="image-itens">
+              <div class="image-item">
+                <img
+                  src="/images/image-product-1-thumbnail.jpg"
+                  alt="Produto 1"
+                />
+              </div>
+              <div class="image-item">
+                <img
+                  src="/images/image-product-2-thumbnail.jpg"
+                  alt="Produto 2"
+                />
+              </div>
+              <div class="image-item">
+                <img
+                  src="/images/image-product-3-thumbnail.jpg"
+                  alt="Produto 3"
+                />
+              </div>
+              <div class="image-item">
+                <img
+                  src="/images/image-product-4-thumbnail.jpg"
+                  alt="Produto 4"
+                />
+              </div>
+            </div>
+          </div>
+        </aside>
+        <article>
+          <div class="about-item">
+            <p class="company">sneaker company</p>
+            <h2>Fall Limited Edition Sneakers</h2>
+            <p>
+              These low-profile sneakers are your perfect casual wear companion.
+              Featuring a durable rubber outer sole, they! withstand everything
+              the weather can offer.
+            </p>
+          </div>
+          <div class="value-item">
+            <div class="value">
+              <div class="span">
+                <p class="price">$125.00</p>
+                <p>50%</p>
+              </div>
+              <p class="before-price">$250.00</p>
+            </div>
+            <div class="cart">
+              <div class="quantity">
+                <span
+                  ><img
+                    class="menos"
+                    src="/images/icon-minus.svg"
+                    alt="Menos" />
+                  <p>0</p>
+                  <img class="mais" src="/images/icon-plus.svg" alt="Mais"
+                /></span>
+              </div>
+              <div class="add-cart">
+                <span
+                  ><img src="/images/icon-cart-white.svg" alt="icon cart"
+                /></span>
+                <p>Add to cart</p>
+              </div>
+            </div>
+          </div>
+        </article>
+      </main>
+    </div>
+    <script src="/assets/script.js"></script>
+  </body>
+</html>
